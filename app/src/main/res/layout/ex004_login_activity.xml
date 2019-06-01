@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Login"
+            android:layout_row="0"
+            android:layout_column="0"
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="text"
+            android:id="@+id/login_edit_text"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Password"
+            android:layout_row="1"
+            android:layout_column="0"
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="text"
+            android:id="@+id/password_edit_text"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Name"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:id="@+id/registration_text_view"
+            android:visibility="gone"
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="text"
+            android:id="@+id/registration_edit_text"
+            android:visibility="gone"
+            />
+
+
+
+    </GridLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="117dp"
+        android:layout_height="match_parent"
+        android:text="Registration"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/cofirm_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:onClick="Click"
+        />
+
+</LinearLayout>
+</LinearLayout>

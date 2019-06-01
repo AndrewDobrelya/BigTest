@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bigtest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ex_011_simple_interface2.Interface2Activity"></activity>
+        <activity android:name=".ex_010_simple_interface1.Intarface1Activity" />
+        <activity android:name=".ex_009_interface_fragment.InterfaceFragmentActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- suppress AndroidDomInspection -->
+        <activity android:name=".ex_001_simple_activity.SimpleActivity" />
+        <activity android:name=".ex_002_hello_button.HelloButtonActivity" />
+        <activity android:name=".ex_003_send_data_simple.MainNameActivity" />
+        <activity android:name=".ex_003_send_data_simple.CheckContentActivity" />
+        <activity android:name=".ex_004_toast_and_activity.LoginActivity" />
+        <activity android:name=".ex_004_toast_and_activity.UserActivity" />
+        <activity android:name=".ex_005_activity_return_result.UserActivity" />
+        <activity android:name=".ex_005_activity_return_result.LanguageActivity" />
+        <activity android:name=".ex_005_activity_return_result.NameActivity" />
+        <activity android:name=".ex_006_notification.SecondActivity" />
+        <activity android:name=".ex_006_notification.NotifiationActivity" />
+        <activity android:name=".ex_007_simple_fragment.FragmentSimpleActivity" />
+        <activity android:name=".ex_008_two_fragment.TwoFragmentMainActivity" />
+    </application>
+
+</manifest>
